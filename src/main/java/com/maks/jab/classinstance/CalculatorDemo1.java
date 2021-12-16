@@ -1,8 +1,7 @@
 package com.maks.jab.classinstance;
 
-public class ee1 {
+public class CalculatorDemo1 {
     static double PI = 3.14;
-    static int base = 0;
     int left, right;
 
     public void setOprands(int left, int right) {
@@ -11,11 +10,11 @@ public class ee1 {
     }
 
     public void sum() {
-        System.out.println(this.left + this.right + base);
+        System.out.println(this.left + this.right);
     }
 
     public void avg() {
-        System.out.println((this.left + this.right + base) / 2);
+        System.out.println((this.left + this.right) / 2);
     }
 }
 
